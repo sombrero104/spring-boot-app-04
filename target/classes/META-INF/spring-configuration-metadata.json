@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "sombrero",
+      "type": "sombrero.SombreroProperties",
+      "sourceType": "sombrero.SombreroProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sombrero.age",
+      "type": "java.lang.Integer",
+      "sourceType": "sombrero.SombreroProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "sombrero.full-name",
+      "type": "java.lang.String",
+      "sourceType": "sombrero.SombreroProperties"
+    },
+    {
+      "name": "sombrero.name",
+      "type": "java.lang.String",
+      "sourceType": "sombrero.SombreroProperties"
+    }
+  ],
+  "hints": []
+}

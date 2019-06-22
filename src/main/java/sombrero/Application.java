@@ -46,7 +46,7 @@ public class Application {
      * ml#overview-logging
      * ● Spring-JCL (spring jakarta commons logging)
      * ○ Commons Logging -> SLF4j or Log4j2
-     * ○ pom.xml에 exclusion 안해도 됨.
+     *  pom.xml에 exclusion 안해도 됨.
      */
 
     /**
@@ -65,5 +65,23 @@ public class Application {
      * ● 로그 레벨 조정: logging.level.패지키 = 로그 레벨
      */
 
+
+    /**
+     * 커스텀 로그 설정 파일 사용하기
+     * ● Logback: logback-spring.xml
+     *      logback.xml은 너무 일찍 로딩이 되기 때문에
+     *      스프링이 제공하는 로그 익스텐션 기능을 사용하려면 logback-spring.xml로 사용.
+     * ● Log4J2: log4j2-spring.xml
+     * ● JUL (비추): logging.properties
+     * ● Logback extension
+     * ○ 프로파일 <springProfile name=”프로파일”>
+     * ○ Environment 프로퍼티 <springProperty>
+     *
+     *
+     *
+     * 로거를 Log4j2로 변경하기
+     * ● https://docs.spring.io/spring-boot/docs/current/reference/html/howto-logging.html#ho
+     * wto-configure-log4j-for-logging
+     */
 
 }
