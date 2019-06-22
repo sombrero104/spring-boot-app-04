@@ -1,0 +1,28 @@
+2019-06-22 20:57:46.031  INFO 48426 --- [main] sombrero.Application                     : Starting Application on sombrero104ui-MacBookPro.local with PID 48426 (/Users/sombrero104/IdeaProjects/springbootapp04/target/classes started by sombrero104 in /Users/sombrero104/IdeaProjects/springbootapp04)
+2019-06-22 20:57:46.034  INFO 48426 --- [main] sombrero.Application                     : No active profile set, falling back to default profiles: default
+2019-06-22 20:57:46.935  INFO 48426 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-22 20:57:46.963  INFO 48426 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 20:57:46.963  INFO 48426 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 20:57:47.047  INFO 48426 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-22 20:57:47.047  INFO 48426 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 974 ms
+2019-06-22 20:57:47.248  INFO 48426 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 20:57:47.414  INFO 48426 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-22 20:57:47.417  INFO 48426 --- [main] sombrero.Application                     : Started Application in 1.893 seconds (JVM running for 2.28)
+2019-06-22 21:08:40.751  INFO 48426 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 21:08:44.685  INFO 49093 --- [main] sombrero.Application                     : Starting Application on sombrero104ui-MacBookPro.local with PID 49093 (/Users/sombrero104/IdeaProjects/springbootapp04/target/classes started by sombrero104 in /Users/sombrero104/IdeaProjects/springbootapp04)
+2019-06-22 21:08:44.687 DEBUG 49093 --- [main] sombrero.Application                     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-22 21:08:44.687  INFO 49093 --- [main] sombrero.Application                     : No active profile set, falling back to default profiles: default
+2019-06-22 21:08:45.544  INFO 49093 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-22 21:08:45.570  INFO 49093 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 21:08:45.570  INFO 49093 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 21:08:45.653  INFO 49093 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-22 21:08:45.653  INFO 49093 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 929 ms
+2019-06-22 21:08:45.853  INFO 49093 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 21:08:46.017  INFO 49093 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-22 21:08:46.020  INFO 49093 --- [main] sombrero.Application                     : Started Application in 1.782 seconds (JVM running for 2.137)
+2019-06-22 21:08:46.021  INFO 49093 --- [main] sombrero.SampleRunner                    : =======================
+2019-06-22 21:08:46.021  INFO 49093 --- [main] sombrero.SampleRunner                    : hello
+2019-06-22 21:08:46.021  INFO 49093 --- [main] sombrero.SampleRunner                    : sombrero
+2019-06-22 21:08:46.021  INFO 49093 --- [main] sombrero.SampleRunner                    : sombrero 104
+2019-06-22 21:08:46.022  INFO 49093 --- [main] sombrero.SampleRunner                    : =======================
+2019-06-22 21:11:35.199  INFO 49093 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
